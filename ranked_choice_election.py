@@ -1,12 +1,6 @@
 import math
 import random
 
-''' I attempted to do the extra credit assignment for #4 to give a randomly
-    selected return among the minimums if there is more than one minimum. I
-    struggled with it for a while until I opted to use a seperate for loop to
-    find the minimum from the one which determined where the mins were in the
-    list, which maybe is the best way of doing it.
-'''
 ################################################################################
 
 def declareWinner(name: str, num_votes_for: int, num_votes_total: int, round_number: int) -> None:
